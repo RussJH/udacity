@@ -10,6 +10,11 @@
 *.userosscache
 *.sln.docstates
 
+Banana.exe
+UnityPlayer.dll
+Banana_Data/
+*.log
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
@@ -283,6 +288,8 @@ node_modules/
 
 # Visual Studio 6 auto-generated workspace file (contains which files were open etc.)
 *.vbw
+.vscode
+
 
 # Visual Studio LightSwitch build output
 **/*.HTMLClient/GeneratedArtifacts
