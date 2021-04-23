@@ -48,8 +48,7 @@ class Agent():
         if self.t_step == 0:
             if(len(self.memory) > self.memory.batch_size):
                 experiences = self.memory.get_random_sample()
-                if(not done):
-                    self.learn(experiences, 0.99)
+                self.learn(experiences, 0.99)
 
     def learn(self, experiences, gamma):
         """
